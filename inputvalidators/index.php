@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP content</title>
+    <title>PHP validation</title>
 </head>
 <body>
     
@@ -33,8 +33,8 @@
         echo '<br>';
         echo 'Number 23 is a valid username: ' . validate_username(23); // false
         echo '<br>';
-        echo '"asdgfdhkgssssddaafdkddaaaa", with ';
-        echo strlen("asdgfdhkgssssddaafdkddaaaa");
+        echo '"somesome", with ';
+        echo strlen("somesome");
         echo ' character  is a valid username: ' . validate_username("asdgfdhkgssssddaafdkddaaaa"); // false'
         echo '<br>';
         echo 'An empty string is a valid username: ' . validate_username(""); // false
